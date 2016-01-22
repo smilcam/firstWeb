@@ -1,0 +1,410 @@
+.class {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+}
+
+
+
+/*HEADER*/
+header {
+  width: 95%;
+  height: 170px;
+  background-color: #F5FAFA;
+  margin: 2% auto;
+  position: relative;
+ 
+}
+
+.login {
+      width: 100%;
+      margin-left: 90%;
+      list-style: none;
+      font-size: 15px;
+      font-family: Verdana,Geneva,sans-serif;
+      text-decoration: none;
+      font-weight: bold;
+      color: #069;
+}
+
+   
+
+.login:hover {
+      color: #c00;
+      background-color: #fff; }
+
+
+#nav {
+      width: 100%;
+      float: left;
+      padding: 0;
+      list-style: none;
+      background-color: #f6f6f6;
+      border-bottom: 1px solid #ccc;
+      border-top: 1px solid #ccc;
+      font-size: 20px;
+      font-family: Verdana,Geneva,sans-serif;
+      position:absolute;
+bottom:30px; width:100%; margin: 0 auto;
+    
+
+    }
+#nav li .home {
+  float:left;
+}
+   #nav li {
+      float: left; }
+   #nav li a {
+      display: block;
+      padding: 8px 15px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #069;
+      border-right: 1px solid #ccc; }
+   #nav li a:hover {
+      color: #c00;
+      background-color: #fff; }
+   /* End navigation bar styling. */
+
+   /* This is just styling for this specific page. */
+   
+   /*END HEADER*/
+   
+   
+   
+   
+   
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+  background-color:  #6699ff;
+
+
+
+}
+/* INTRO */
+
+/*
+.intro {
+background-color:#F5FAFA;
+padding-left: 20px;
+padding-right: 20px;
+margin-right:auto;
+margin-left:auto;
+padding-top: 10px;
+height:400px;
+
+}
+.pintro {
+font-weight: 500;
+font-size: 16px;
+text-align: center;
+color: #40666D;
+padding: 20px 0;
+}
+.pintro strong {
+  font-size: 30px;
+  font-style: italic;
+}
+
+
+
+.special {
+  color: #40666D;
+text-transform: uppercase;
+font-size: 35px;
+font-weight: 300;
+margin-top: 20px
+font-family: Oswald;
+margin-bottom: 5px;
+line-height: 1.1;
+text-align: center;
+}
+
+.die {
+  height:80px;
+  width: 80px;
+  display: block;
+  margin: auto;
+}
+
+
+em {
+  color:#E9AF32;
+  font-weight: bold;
+  font-style: normal;
+}*/
+
+/* THE DIVS */
+
+.container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: white;
+  height: 100vh;
+  width:95%;
+  justify-content: space-between;
+
+}
+
+.holder {
+  display: flex;
+  flex-direction: column;
+  background-color: #F5FAFA;
+  height:100vh;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.left {
+    float:left;
+    background-color: white;
+}
+
+.title {
+  height: 10%;
+  width: 100%;
+  background: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-style: solid none;
+  align-content: space-around;
+}
+
+.holder h2 {
+  color: #313130;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.results {
+  height: 60px;
+  width: 80%;
+  background-color:#fff;
+  color: black;
+  margin: auto;
+  display: flex;
+  box-shadow: rgba(0,0,0,0.5) 0px 0px 20px;
+  padding-right: 0;
+  float:left;
+  font-family: verdana,arial,helvetica,sans-serif;
+  margin-right:20%;
+  
+}
+
+/*EASY ACCESS*/
+
+.three {
+background-color: white;
+display: flex;
+flex-direction:row;
+justify-content: center;
+align-items: center;
+align-content: flex-start;
+width: 100%;
+height: 315px;
+flex-wrap: wrap;
+text-align: center;
+margin:0 auto;
+vertical-align: top;
+position: relative;
+}
+
+.sports {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  display: block;
+  flex: 1;
+  align-items: flex-start;
+  align-content: flex-start;
+  margin: 0 auto;
+  padding-bottom: 100px;
+flex-wrap: wrap;
+
+
+}
+
+.booya {
+display: flex;
+flex: 1;
+flex-wrap: wrap;
+flex-direction: column;
+width: 25%;
+padding: 0 80px;
+color:#40666D;
+font-weight: 400;
+border-style: none solid none none;
+}
+
+.one {
+border-style: none;
+}
+
+
+
+.booya a {
+  color:#B0C4DE;
+  text-decoration: none;
+  font-size: 40px;
+  font-family: sans-serif;
+
+}
+a:hover {
+  color:#E9AF32;
+}
+
+.light {
+  height:75px;
+  width: 75px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.point {
+height: 40px;
+width:40px;
+margin: 0 auto;
+}
+
+/*EASY ACCESS 2*/
+.black {
+  height: 2px;
+  width: 100%;
+  background-color: black;
+  margin-bottom: 30px;
+}
+
+
+.two {
+background-color: white;
+display: flex;
+flex-direction:row;
+justify-content: center;
+width: 100%;
+height: 315px;
+margin: 0 auto;
+
+
+
+
+}
+
+.hockey {
+display: flex;
+
+width: 40%;
+color:#40666D;
+font-weight: 400;
+border-style: none solid none none;
+padding-top: 50px;
+flex-wrap: wrap;
+flex-direction: column;
+text-align: center;
+}
+.hockey a {
+  color:#white;
+  text-decoration: none;
+  font-size: 40px;
+}
+.NS a {
+  color:#white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+
+
+
+
+.NS {
+display: flex;
+flex-direction: column;
+
+width: 40%;
+color:#40666D;
+font-weight: 400;
+padding-top: 50px;
+text-align: center;
+
+
+
+}
+
+.dark {
+  height:80px;
+  width: 80px;
+  margin: 0 auto;
+}
+
+/*FOOTER*/
+
+
+footer {
+  width: 100%;
+  height: 40px;
+  bottom:0;
+  left:0;
+    margin: 0 auto;
+    display: block;
+    background-color: #6699FF;
+    text-align: center;
+    color:white;
+    padding-top: 3px;
+}
+
+
+
+
+
+@media screen and (max-width: 1020px) {
+    
+header, .container, footer, body, #nav  {
+        
+        width: auto;
+        float:none;
+}  
+ p { font-size:1.5em;  margin-top:0; }
+ 
+ 
+/*body */
+
+ 
+.container {height:100vh; padding-left:5px;  display:flex;
+width: 100%; margin-top: 0px;}
+ 
+ 
+ 
+ 
+ /*Container*/
+ .holder {width:100%; display:flex; clear:both;}
+ 
+ .holder .trend {width:100%; display:block;}
+ 
+ .results {height: 175px; font-size:25px; margin: .5% auto;
+ border: 1px solid black;}
+ 
+ /*Header*/
+ #nav li a {font-size:30px; margin: 0 auto; }
+ 
+ #nav {bottom: 0; position:absolute;
+bottom:30px; width:100%; margin: 0 auto;}
+ 
+ header {height:250px;}
+ 
+ .holder h2 {
+     font-size:40px;
+     text-align: center;
+     padding-top:10px;
+ }
+ 
+ 
+ }
