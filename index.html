@@ -8,28 +8,41 @@
 
 <header>
 
-     <a class='login' href='#'>Log in</a>  
-     <a class='login' href='#'>Sign Up</a>  
+  <nav>
+   <ul>
+    <a ui-sref="home"><li>HOME</li></a>
+    <a ui-sref="nba"><li>NBA</li></a>
+    <a ui-sref="nfl"><li>NFL</li></a>
+    <a ui-sref="nhl"><li  class='nhl'>NHL</li></a>
+    <a ui-sref="mlb"><li>MLB</li></a>
+    <a ui-sref="newSport"><li>NEW SPORT</li></a>
+   </ul>
+  </nav>
+  <div class="logo"></div>
  
-
-
-<ul id="nav" ui-view>
-     <li class ='home'><a href="#">Home</a></li>
-  <li><a href="#">NHL</a></li>
-  <li><a href="#">MLB</a></li>
-  <li><a ui-sref="nba">NBA</a></li>
-  <li><a href="#">NFL</a></li>
-  <li><a href="#">Create Sport</a></li>
-</ul>
+ 
+ 
+ 
+ 
 </header>
 
 <body>
     
- <div class="container">
-    <div class="holder left">
+ <div ui-view class="container">
+      
+    <div class="holder">
         
           <div class="title">
                <h2>What's Trending</h2>
+               <div class= "tabs">
+                   <ul>
+                       <li>Trending </li>
+                              <li>MostComments</li>
+                       <li>Top</li>
+                       <li>New</li>
+                   </ul>
+                   </div>
+               
             </div>
           
           
@@ -44,83 +57,15 @@
           <div class="results"> <p> <a href="#"> Rule Change </a> --- MLB -- Section VIII—Traveling </p></div>
           <div class="results"> <p>  <a href="#"> Rule Addition </a> --- NBA -- Section VIII—Traveling </p></div>
           <div class="results"> <p>  <a href="#"> Rule Change </a> --- NBA -- Section VIII—Traveling </p></div>
+          
+          
+          
+          <div class= nextPage>
+      <p>More Content: <a class='nextPage' href="#">Next Page </a> </p>
+          </div>
     </div>
     
-    <!-- INTRO  -->
-  <!--<div class="intro">
-          <p class="pintro"><strong>SportSight  </strong>
-              brings fans together to voice their opinions on
-               <br> </br>
-              the rules of professional sports. Whether it be to change current rules
-              <br> </br>
-             or suggest new ones. You can also attempt to create rules for a new sport.
-           </p>
-
-            <img class="die" src="http://s29.postimg.org/9gmebj5tz/whistle5_1.png">
-
-           <h4 class="special">Here's whats <em>trending<em></h4>
-          </div>-->
-
- <!-- CONTAINER AND DIVS  -->
   
-
-
-<!-- EASY ACCESS -->
-<!-- <div class="three">
- <div class="sports"><h3> Sports </h3> </div>
-     <div class="booya">
-         <img class="light" src="http://s12.postimg.org/yrs94gn7h/ball23.png">
-         <br> </br>
-                 <p>
-                   <a href="http://wideopentech.com/services">NBA</a>
-                 </p>
-                  <img class="point" src ="http://s1.postimg.org/a5jfxkdi7/pointer.png">
-    </div>
-
-     <div class="booya">
-       <img class="light" src="http://s23.postimg.org/kp098fs23/game64.png">
-        <br> </br>
-             <p>
-             <a href="http://wideopentech.com/company">NFL</a>
-            </p>
-            <img class="point" src ="http://s1.postimg.org/a5jfxkdi7/pointer.png">
-      </div>
-
-    <div class="booya one">
-       <img class="light" src="http://s8.postimg.org/hrzwsgdl1/sports_ball19.png">
-        <br> </br>
-                  <p>
-                   <a href="http://wideopentech.com/portfolio">MLB</a>
-                  </p>
-                  <img class="point" src ="http://s1.postimg.org/a5jfxkdi7/pointer.png">
-    </div>
-
-       </div> -->
-<!-- Part 2 -->
-
-<!-- <div class="two">
-
-     <div class="hockey">
-         <img class="dark" src="http://s2.postimg.org/yfpb3yxmx/sport172.png">
-         <br> </br>
-                 <p>
-                   <a href="http://wideopentech.com/services">NHL</a>
-                 </p>
-                  <img class="point" src ="http://s1.postimg.org/a5jfxkdi7/pointer.png">
-    </div>
-
-     <div class="NS">
-       <img class="dark" src="http://s27.postimg.org/vjqt2pc83/think4.png">
-        <br></br>
-             <p>
-             <a href="http://wideopentech.com/company">Create your own sport</a>
-            </p>
-            <img class="point" src ="http://s1.postimg.org/a5jfxkdi7/pointer.png">
-      </div> -->
-
-
-      
-<foot-dir> </foot-dir>
 
 
 
@@ -136,9 +81,8 @@
 
 <!--myfiles-->
 <script src="app.js"></script>
-<script src="./js/template/footer/footerDir.js"></script>
-<script src="./js/template/header/headerDir.js"></script>
-<script src="./js/template/container/container.js"></script>
+
+
 
 
 
